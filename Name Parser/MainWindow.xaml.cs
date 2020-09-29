@@ -24,9 +24,17 @@ namespace Name_Parser
         {
             InitializeComponent();
         }
-
-        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        private void btnCalculate_Click_1(object sender, RoutedEventArgs e)
         {
+            String Fullname = txtFullname.Text;
+
+            var firstComma = Fullname.IndexOf(",");
+            var lastName = Fullname.Substring(0, firstComma);
+
+            lblLastName.Content = lastName;
+
+            
+
 
         }
     }
