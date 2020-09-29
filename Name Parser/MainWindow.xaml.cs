@@ -24,5 +24,10 @@ namespace Name_Parser
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
